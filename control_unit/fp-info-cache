@@ -1,4 +1,4 @@
-25767921635313536
+25771410692353641
 ATA6561
 SOIC8_4P9X3P9MC_MCH
 
@@ -99624,6 +99624,13 @@ FC-135R_L3.2-W1.5
 2
 2
 basic_parts
+IND-SMD_L13.8-W12.6
+
+
+0
+2
+2
+basic_parts
 JST_VH_B3P-VH_1x03_P3.96_Vertical_45 degree
 
 
@@ -99721,6 +99728,13 @@ TVDT18-050CB-T
 0
 2
 2
+basic_parts
+VQFN-20_L4.5-W3.5-P0.50-BL-EP
+
+
+0
+21
+21
 basic_parts
 VSON-10_L3.0-W3.0-P0.50-BR-EP
 
