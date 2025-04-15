@@ -4655,7 +4655,7 @@
 	)
 	(text "DC DC converter"
 		(exclude_from_sim no)
-		(at 49.022 16.002 0)
+		(at 47.244 15.494 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -4808,6 +4808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4196432b-f07e-4c47-86dd-9d56c8dc691f")
+	)
+	(junction
+		(at 92.71 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "429b5e29-4d82-4966-a601-2cbaf0dbd5e4")
 	)
 	(junction
 		(at 134.62 54.61)
@@ -6243,6 +6249,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 58.42) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e53e0b-9ee4-4b76-8beb-700a2ade45d1")
+	)
+	(wire
+		(pts
 			(xy 248.92 139.7) (xy 257.81 139.7)
 		)
 		(stroke
@@ -6453,7 +6469,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 90.17 55.88)
+			(xy 82.55 55.88) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6790,6 +6806,16 @@
 			(type default)
 		)
 		(uuid "905ca114-ab61-43de-bb6c-af6afa907357")
+	)
+	(wire
+		(pts
+			(xy 92.71 50.8) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d5ec4b-187d-4f26-80ce-77077108924d")
 	)
 	(wire
 		(pts
@@ -7203,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 68.58 66.04)
+			(xy 68.58 71.12) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7700,16 +7726,6 @@
 			(type default)
 		)
 		(uuid "ece16b65-0142-446d-8f76-6b25f0a5dc95")
-	)
-	(wire
-		(pts
-			(xy 90.17 55.88) (xy 90.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0163a0-6fb9-4213-bb52-d8d8efa366d8")
 	)
 	(wire
 		(pts
@@ -8338,16 +8354,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 57.15 0)
+		(at 87.63 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "045c5c44-3faa-441a-bd7c-f0e39f4db376")
 		(property "Reference" "#PWR016"
-			(at 90.17 63.5 0)
+			(at 87.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 62.23 0)
+			(at 87.63 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 57.15 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 57.15 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 57.15 0)
+			(at 87.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,7 +8752,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 91.44 22.86 90)
 			(effects
 				(font
@@ -8858,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 72.39 0)
+		(at 68.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8867,7 +8882,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bf5b061-d015-4ae2-8414-c5e58ab6214d")
 		(property "Reference" "#PWR018"
-			(at 68.58 78.74 0)
+			(at 68.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 77.47 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 72.39 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 72.39 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 72.39 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,6 +9611,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 92.71 54.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35072588-95c9-433d-8a49-f3c13fda89e7")
+		(property "Reference" "Rilim"
+			(at 95.758 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 95.758 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.932 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59a8f4d-0c27-4eeb-9324-89e0d3377151")
+		)
+		(pin "2"
+			(uuid "258890be-0f4a-483b-9ff0-bd8fa4817374")
+		)
+		(instances
+			(project ""
+				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
+					(reference "Rilim")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 153.67 50.8 0)
 		(unit 1)
@@ -9751,7 +9834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2u"
 			(at 88.9 68.5799 0)
 			(effects
 				(font
@@ -14397,7 +14480,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 88.9 38.1 90)
 			(effects
 				(font
@@ -14597,7 +14680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1u"
 			(at 50.292 41.656 90)
 			(effects
 				(font
@@ -15344,7 +15427,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "51k"
 			(at 60.96 67.31 90)
 			(effects
 				(font
@@ -15842,18 +15925,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdc9314a-c3fd-48aa-a8ec-4667b7055503")
 		(property "Reference" "Rt"
-			(at 49.53 31.75 90)
+			(at 46.736 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 49.53 34.29 90)
+		(property "Value" "33k"
+			(at 46.736 36.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
