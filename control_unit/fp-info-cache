@@ -1,4 +1,4 @@
-25771410692353641
+25773155416387349
 ATA6561
 SOIC8_4P9X3P9MC_MCH
 
@@ -99756,6 +99756,13 @@ pinheader 3 45 degree
 0
 3
 3
+basic_parts
+wetness sensor
+
+
+0
+8
+2
 myConnector_JST
 JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical
 JST ACH series connector, BM01B-ACHSS-A-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator
