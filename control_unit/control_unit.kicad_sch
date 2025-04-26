@@ -6012,7 +6012,7 @@
 	)
 	(text "RaspberryPi4"
 		(exclude_from_sim no)
-		(at 208.534 98.298 0)
+		(at 207.518 101.092 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -6022,7 +6022,7 @@
 	)
 	(text "BLDC_OLD"
 		(exclude_from_sim no)
-		(at 56.642 182.372 0)
+		(at 63.754 184.658 0)
 		(effects
 			(font
 				(size 5.08 5.08)
