@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+Cbst1,0.1u,C_0603_1608Metric,93.875,-67.755,0.0,top
+Cc1,5.6n,C_0603_1608Metric,104.875,-69.255,180.0,top
+Cc2,82p,C_0603_1608Metric,104.875,-67.255,180.0,top
+Cc3,1500p,C_0603_1608Metric,110.125,-65.255,180.0,top
+Cout1,100p,C_0603_1608Metric,80.88,-45.76,90.0,top
+Cout2,0.1u,C_0603_1608Metric,96.38,-45.76,90.0,top
+Css1,0.1u,C_0603_1608Metric,104.375,-72.255,90.0,top
+Cvcc1,2.2u,C_0603_1608Metric,94.125,-64.505,-90.0,top
+Cvin1,0.1u,C_0603_1608Metric,96.375,-69.755,0.0,top
+L2,10u,IND-SMD_L13.8-W12.6,88.375,-49.005,90.0,top
+Rc1,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,107.875,-68.255,90.0,top
+Rc2,560,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,110.125,-63.005,180.0,top
+Rfb1,18k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,106.625,-64.255,90.0,top
+Rfb2,3.3k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,104.125,-64.255,-90.0,top
+Rilim1,180,R_0603_1608Metric,95.8,-60.255,180.0,top
+Rpg1,51k,R_0603_1608Metric,101.375,-60.255,0.0,top
+Rt1,33k,R_0603_1608Metric,102.375,-72.255,90.0,top
+Ruv1,75k,R_0603_1608Metric,100.125,-73.005,90.0,top
+Ruv2,12k,R_0603_1608Metric,100.125,-69.755,-90.0,top
+U5,~,VQFN-20_L4.5-W3.5-P0.50-BL-EP,98.877,-65.0065,90.0,top
