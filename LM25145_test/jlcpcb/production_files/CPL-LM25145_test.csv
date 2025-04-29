@@ -1,8 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 Cbst1,0.1u,C_0603_1608Metric,93.875,-67.755,0.0,top
-Cc1,5.6n,C_0603_1608Metric,104.875,-69.255,180.0,top
-Cc2,82p,C_0603_1608Metric,104.875,-67.255,180.0,top
-Cc3,1500p,C_0603_1608Metric,110.125,-65.255,180.0,top
 Cout1,100p,C_0603_1608Metric,80.88,-45.76,90.0,top
 Cout2,0.1u,C_0603_1608Metric,96.38,-45.76,90.0,top
 Css1,0.1u,C_0603_1608Metric,104.375,-72.255,90.0,top
