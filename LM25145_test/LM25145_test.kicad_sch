@@ -3962,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "47u"
 			(at 151.13 76.2 0)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/GRM32ER7YA106KA12.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/GRM32EC81C476KE15.pdf"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32EC81C476KE15"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 165.1 45.72 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32EC81C476KE15"
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -6025,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -6381,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -6651,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -6858,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -7136,7 +7136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 170.18 45.72 0)
 			(effects
 				(font
@@ -7470,7 +7470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "SMMS1350-100M"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -7548,7 +7548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 144.78 45.72 0)
 			(effects
 				(font
@@ -7694,7 +7694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -7836,7 +7836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM32ER7YA106KA12"
 			(at 134.62 45.72 0)
 			(effects
 				(font
