@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 8.39 0)
+		(at 0.25 0.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "58f0a6eb-1135-4bb2-b3e0-8e03d5b8be6e")
@@ -75,8 +75,8 @@
 		(uuid "ca82b412-723b-4007-933a-8e13c678b632")
 	)
 	(fp_line
-		(start -2.5 -11)
-		(end -2 -10.5)
+		(start -5 -11)
+		(end -4.5 -10.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "1b338495-41ac-41a8-bcf2-0bdfd2fd6adc")
 	)
 	(fp_line
-		(start -2 -11.5)
-		(end -2.5 -11)
+		(start -4.5 -11.5)
+		(end -5 -11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "09f09479-43a6-4394-8e2a-4471ed713430")
 	)
 	(fp_line
-		(start 0 -13.5)
-		(end -0.5 -13)
+		(start -2.5 -13.5)
+		(end -3 -13)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -105,8 +105,8 @@
 		(uuid "96b6b298-7fc1-474f-91de-288fd91e7787")
 	)
 	(fp_line
-		(start 0 -13.5)
-		(end 0.5 -13)
+		(start -2.5 -13.5)
+		(end -2 -13)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,8 +115,8 @@
 		(uuid "cc33adf6-7dbb-4227-95c0-0f3f0563df03")
 	)
 	(fp_line
-		(start 0 -11)
-		(end -2.5 -11)
+		(start -2.5 -11)
+		(end -5 -11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -125,8 +125,8 @@
 		(uuid "0e3cc9c5-8b46-47a9-a306-c55670cdd231")
 	)
 	(fp_line
-		(start 0 -11)
-		(end 0 -13.5)
+		(start -2.5 -11)
+		(end -2.5 -13.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -155,8 +155,8 @@
 		(uuid "905fbade-53e3-4cdf-b1b8-26f33344ce46")
 	)
 	(fp_circle
-		(center 0 -11)
-		(end 0 -11)
+		(center -2.5 -11)
+		(end -2.5 -11)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -166,8 +166,8 @@
 		(uuid "ed0a169b-d7a8-49c4-8001-cac0d9698b18")
 	)
 	(fp_circle
-		(center 0 -11)
-		(end 0.5 -10.75)
+		(center -2.5 -11)
+		(end -2 -10.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -216,7 +216,7 @@
 		)
 	)
 	(fp_text user "Z"
-		(at 0.5 -9.5 0)
+		(at -2 -9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "32744a22-5f90-4f7f-9034-07b72ed96e61")
@@ -229,7 +229,7 @@
 		)
 	)
 	(fp_text user "Y"
-		(at -3.5 -10.5 0)
+		(at -6 -10.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5e8e52a8-bfa0-4706-906d-727d7cc0f655")
@@ -307,7 +307,7 @@
 		)
 	)
 	(fp_text user "X"
-		(at -0.5 -13.75 0)
+		(at -3 -14 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e904ede2-b272-4036-9c4e-c4123df0c1d1")
