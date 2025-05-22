@@ -8535,6 +8535,12 @@
 		(uuid "b6acdef9-4eab-49e6-a414-cc60ee426925")
 	)
 	(junction
+		(at 205.74 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70ad93e-0ce9-49cb-9ee3-f626f0e1f315")
+	)
+	(junction
 		(at 137.16 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9904,6 +9910,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 72.39) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fd7bd5-d16a-483f-88f6-8c2437737a2c")
+	)
+	(wire
+		(pts
 			(xy 341.63 153.67) (xy 345.44 153.67)
 		)
 		(stroke
@@ -10161,6 +10177,16 @@
 			(type default)
 		)
 		(uuid "658e7992-2326-4c10-90ac-e9ff4783a80a")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66217945-c86c-475a-b5c8-277ff207a631")
 	)
 	(wire
 		(pts
@@ -13700,7 +13726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -15398,7 +15424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 378.46 165.1 0)
 			(effects
 				(font
@@ -15954,7 +15980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XA_B04B-XASK-1-A_1x04_P2.50mm_Vertical"
 			(at 295.91 130.81 0)
 			(effects
 				(font
@@ -16628,6 +16654,86 @@
 			(project "control_unit"
 				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 205.74 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "472848d4-fafb-4bb3-8e87-7b6de7cb1e44")
+		(property "Reference" "LED2"
+			(at 209.55 76.5174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 209.55 79.0574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5671b3ac-013a-4890-b0f4-af250633100a")
+		)
+		(pin "2"
+			(uuid "e05a12cb-9f2b-432c-8260-c10f85697203")
+		)
+		(instances
+			(project "control_unit"
+				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -17316,7 +17422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1-A_1x02_P2.50mm_Vertical"
 			(at 403.86 58.42 0)
 			(effects
 				(font
@@ -22026,6 +22132,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 205.74 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af88223f-5f98-420d-9891-17709c2b1c49")
+		(property "Reference" "R16"
+			(at 208.28 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 208.28 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.962 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8c988d-c183-4ac7-8ce9-bd56448cec10")
+		)
+		(pin "2"
+			(uuid "fc8c1f3a-a9b7-467c-96c6-9bc854101f40")
+		)
+		(instances
+			(project "control_unit"
+				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 64.77 0)
 		(unit 1)
@@ -22604,7 +22780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 147.32 214.63 0)
 			(effects
 				(font
@@ -23311,7 +23487,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SS54"
 			(at 38.481 36.83 0)
 			(effects
 				(font
@@ -23911,7 +24087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 93.98 215.9 0)
 			(effects
 				(font
@@ -24890,7 +25066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 40.64 217.17 0)
 			(effects
 				(font
@@ -25085,7 +25261,7 @@
 		(dnp no)
 		(uuid "e5f05f54-963d-451b-9255-29a8c647a5af")
 		(property "Reference" "TP4"
-			(at 202.946 62.738 0)
+			(at 201.422 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25094,7 +25270,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 202.946 65.024 0)
+			(at 198.374 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25244,7 +25420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XA_B04B-XASK-1-A_1x04_P2.50mm_Vertical"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -25321,7 +25497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 121.92 215.9 0)
 			(effects
 				(font
@@ -25439,6 +25615,72 @@
 			(project "control_unit"
 				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee90f394-4dd7-47a5-8f57-ed8582034a33")
+		(property "Reference" "#PWR069"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75287890-b856-40b7-896a-70f0a978e1e8")
+		)
+		(instances
+			(project "control_unit"
+				(path "/37a62e38-d605-4440-86b8-fb3d0940d64a"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
