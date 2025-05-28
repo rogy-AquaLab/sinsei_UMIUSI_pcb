@@ -1,0 +1,25 @@
+Reference,Value,Š,•K—vŒÂ”,”„‚èê,ƒŠƒ“ƒN
+Analog_IN1,Conn_01x04_Pin,Z,,,
+CAN1,Conn_01x02_Pin,Z,,,
+CAN2,Conn_01x02_Pin,Z,,,
+Cc1,5.6n,Z,,,
+Cc2,82p,Z,,,
+Cc3,1500p,Z,,,
+headlight1,Conn_02x03_Odd_Even,¢,,,
+J2,Conn_01x02_Socket,Z,,,
+J4,SERVO_PWM,Z,,,
+J5,BLDC1,Z,,,
+J6,BLDC1,Z,,,
+J7,BLDC1,Z,,,
+J8,BLDC1,Z,,,
+J9,Barrel_Jack_Switch,Z,,,
+M1,Motor_Servo,Z,,,
+M2,Fan,Z,,,
+Q1,MTB7D0N6RJ3,,2,36”Ô”„ê 2’i–Ú,https://akizukidenshi.com/catalog/g/g117191/
+R1,20m,,1,1F 15”Ô”„ê ‰º’iƒXƒ`[ƒ‹’I‚Ìˆøo,https://akizukidenshi.com/catalog/g/g106668/
+TP1,TestPoint,,3,1F 12”Ô”„ê ‰º’iƒXƒ`[ƒ‹’I‚Ìˆøo,https://akizukidenshi.com/catalog/g/g107593/
+U1,CL6808,,1,1F 34”Ô”„ê 4’i–Ú,https://akizukidenshi.com/catalog/g/g106278/
+U2,~,Z,,,
+U3,ATA6561-GAQW-N,,1,1F 38”Ô”„ê 3’i–Ú,https://akizukidenshi.com/catalog/g/g130008/
+U4,ADS1015IDGS,,1,‚È‚µ,
+U15,BNO055 DIP,Z,,,

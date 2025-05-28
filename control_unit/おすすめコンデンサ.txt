@@ -1,7 +1,0 @@
-10uF
-3225 35V GRM32ER7YA106KA12 datasheet https://akizukidenshi.com/goodsaffix/GRM32ER7YA106KA12.pdf  0.19$ 
-5750 100V KRM55QR72A106KH01 datasheet file:///C:/Users/yoshiki/Downloads/KRM55QR72A106KH01_EC-data.pdf 2.02$
-
-47uF
-3225 16V GRM32EC81C476KE15 datasheet https://akizukidenshi.com/goodsaffix/GRM32EC81C476KE15.pdf 0.26$
-5750 35V KRM55WR7YA476MH01 datasheet: file:///C:/Users/yoshiki/Downloads/KRM55WR7YA476MH01_EC-data.pdf 9.41$　在庫なし
