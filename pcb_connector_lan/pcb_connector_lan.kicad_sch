@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9b947bc2-91a5-474c-a743-d015c643d285")
+	(paper "A5")
+	(title_block
+		(rev "REV00")
+	)
+	(lib_symbols)
+	(sheet
+		(at 67.31 54.61)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28f3f9ed-ff3e-4935-92bc-8d6228361394")
+		(property "Sheetname" "outer"
+			(at 67.31 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outer.kicad_sch"
+			(at 67.31 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_connector_lan"
+				(path "/9b947bc2-91a5-474c-a743-d015c643d285"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 54.61)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a4ccec2-658d-4fae-8435-f9c6f9762d0b")
+		(property "Sheetname" "inner"
+			(at 29.21 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inner.kicad_sch"
+			(at 29.21 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_connector_lan"
+				(path "/9b947bc2-91a5-474c-a743-d015c643d285"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
