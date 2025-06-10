@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PowerLED")(type "KiCad")(uri "${KIPRJMOD}/PowerLED.kicad_sym")(options "")(descr ""))
+  (lib (name "aqua_logo")(type "KiCad")(uri "${KIPRJMOD}/aqua_logo.kicad_sym")(options "")(descr ""))
+)
