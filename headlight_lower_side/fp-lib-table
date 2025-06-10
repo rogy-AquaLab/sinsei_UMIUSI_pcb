@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "aqua_rogo")(type "KiCad")(uri "${KIPRJMOD}/aqua_rogo.pretty")(options "")(descr ""))
+)

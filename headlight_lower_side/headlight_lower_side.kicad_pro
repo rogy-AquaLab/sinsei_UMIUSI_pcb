@@ -51,8 +51,27 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|53500000|30100000|eab80e27-2657-4b78-b495-399e8140da7c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|115000000|47249383|2fd4a4f4-c051-4368-abc9-903b21c15190|6e261265-4cb9-4695-9d32-9c848e5cdec7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|115000000|76750616|6d5bf80a-0d67-4ad8-8e65-4e96202f1f23|24babf45-ad5f-4c61-9e8c-d67420c27d54",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -179,7 +198,19 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +237,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -449,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HeadLight.kicad_pro",
+    "filename": "headlight_lower_side.kicad_pro",
     "version": 3
   },
   "net_settings": {
