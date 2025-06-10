@@ -202,22 +202,143 @@
 				)
 			)
 		)
-		(symbol "Device:LED_RGB"
+		(symbol "Device:R"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_RGB"
-				(at 0 -8.89 0)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PowerLED:OSTCXBTHC1E"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OSTCXBTHC1E"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -242,7 +363,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, 6 pin package"
+			(property "Description" "RGB LED, 6 pin package with exposed pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -269,7 +390,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_RGB_0_0"
+			(symbol "OSTCXBTHC1E_0_0"
 				(text "B"
 					(at -1.905 -6.35 0)
 					(effects
@@ -279,14 +400,6 @@
 					)
 				)
 				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
 					(at -1.905 3.81 0)
 					(effects
 						(font
@@ -294,23 +407,30 @@
 						)
 					)
 				)
-			)
-			(symbol "LED_RGB_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
+				(text "R"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
+				)
+			)
+			(symbol "OSTCXBTHC1E_0_1"
+				(circle
+					(center 0 -7.62)
+					(radius 0.3556)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -394,6 +514,30 @@
 				)
 				(polyline
 					(pts
+						(xy -1.016 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.27 -5.08) (xy 2.54 -5.08)
 					)
 					(stroke
@@ -406,31 +550,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -628,11 +760,11 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_1_1"
+			(symbol "OSTCXBTHC1E_1_1"
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 5.08 180)
 					(length 2.54)
-					(name "RK"
+					(name "GA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -648,9 +780,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "GK"
+					(name "RA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -658,24 +790,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -693,6 +807,24 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
@@ -702,9 +834,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "GA"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,9 +852,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "RA"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -737,120 +869,17 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1065,6 +1094,12 @@
 		(color 0 0 0 0)
 		(uuid "a1499fd6-dd9d-470e-99a0-9e65d102d661")
 	)
+	(junction
+		(at 106.68 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ee5f08-da11-4ab0-a87e-dc06cc4a9477")
+	)
 	(wire
 		(pts
 			(xy 120.65 81.28) (xy 124.46 81.28)
@@ -1084,6 +1119,16 @@
 			(type default)
 		)
 		(uuid "0b08a166-445b-48c8-816c-21444508e781")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 115.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc3a5c-1b9c-4a9f-bbe2-0f71c52b587f")
 	)
 	(wire
 		(pts
@@ -1124,6 +1169,16 @@
 			(type default)
 		)
 		(uuid "91262525-5ff6-47bf-82bf-de334ca09fb5")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db9a7c8-4e83-4fe3-ab3f-715e26e1190b")
 	)
 	(wire
 		(pts
@@ -1328,86 +1383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_RGB")
-		(at 115.57 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f0d5690-9079-4f76-bdca-031e3b5e43bc")
-		(property "Reference" "D1"
-			(at 115.57 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_RGB"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, 6 pin package"
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6ef7ddec-5f05-4973-a296-37475949dc36")
-		)
-		(pin "5"
-			(uuid "f9eaabc8-0937-450f-a084-386918a27af1")
-		)
-		(pin "6"
-			(uuid "4e95d735-7993-497f-8ee1-7c34c82415da")
-		)
-		(pin "3"
-			(uuid "131d173a-867e-43cb-8151-b078dcbbe3a7")
-		)
-		(pin "1"
-			(uuid "a07c16b3-7ac4-48af-93ad-1b09e816a89d")
-		)
-		(pin "2"
-			(uuid "d7d77315-d8c2-4a54-b8ac-45854d6f0e94")
-		)
-		(instances
-			(project ""
-				(path "/f07b765c-e5aa-4139-8b16-07d1cd4913c5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 128.27 81.28 90)
 		(unit 1)
@@ -1502,7 +1477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -1545,6 +1520,89 @@
 			(project ""
 				(path "/f07b765c-e5aa-4139-8b16-07d1cd4913c5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerLED:OSTCXBTHC1E")
+		(at 115.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816888f9-f699-4d88-80a9-f825d41ec289")
+		(property "Reference" "D1"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSTCXBTHC1E"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerLED:OSTCXBTHC1E"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, 6 pin package with exposed pad"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "4dadac3b-2a8e-4e37-b7e8-ac5b47ab6bdb")
+		)
+		(pin "6"
+			(uuid "4d589921-6062-44ce-b14c-4be437165ef2")
+		)
+		(pin "3"
+			(uuid "665084b1-2db5-4a06-877f-94b124fbc49a")
+		)
+		(pin "1"
+			(uuid "8e44c922-b9bd-40f2-8b52-b0f2efa38228")
+		)
+		(pin "2"
+			(uuid "3856edda-ce47-4ce8-b14f-5c5d7bdafe95")
+		)
+		(pin "5"
+			(uuid "05c7983f-13b7-4524-a29e-da47eb1caa04")
+		)
+		(pin "4"
+			(uuid "95ee26ce-bd9d-49aa-860e-e7b9ab546834")
+		)
+		(instances
+			(project ""
+				(path "/f07b765c-e5aa-4139-8b16-07d1cd4913c5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
