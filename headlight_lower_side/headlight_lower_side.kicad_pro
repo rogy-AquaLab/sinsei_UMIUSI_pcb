@@ -64,11 +64,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|115000000|47249383|2fd4a4f4-c051-4368-abc9-903b21c15190|6e261265-4cb9-4695-9d32-9c848e5cdec7",
+          "silk_edge_clearance|118000000|47249383|2fd4a4f4-c051-4368-abc9-903b21c15190|6e261265-4cb9-4695-9d32-9c848e5cdec7",
           ""
         ],
         [
-          "silk_edge_clearance|115000000|76750616|6d5bf80a-0d67-4ad8-8e65-4e96202f1f23|24babf45-ad5f-4c61-9e8c-d67420c27d54",
+          "silk_edge_clearance|118000000|76750616|6d5bf80a-0d67-4ad8-8e65-4e96202f1f23|24babf45-ad5f-4c61-9e8c-d67420c27d54",
           ""
         ]
       ],
@@ -524,7 +524,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HeadLight.step",
+      "step": "headlight_lower_side.step",
       "svg": "",
       "vrml": ""
     },

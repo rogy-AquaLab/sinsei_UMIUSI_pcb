@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "specific_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/specific_footprint_library.pretty")(options "")(descr ""))
+  (lib (name "aqua_rogo")(type "KiCad")(uri "${KIPRJMOD}/aqua_rogo.pretty")(options "")(descr ""))
+  (lib (name "custom_M3_pad_library")(type "KiCad")(uri "C:/Users/yoshiki/OneDrive/デスクトップ/UMIUSI/新生UMIUSI_基板/custom_M3_pad_library.pretty")(options "")(descr ""))
+)

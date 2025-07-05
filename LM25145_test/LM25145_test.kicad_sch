@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "893528cb-40aa-4bbc-a3ae-c20202e5412a")
 	(paper "A5")
+	(title_block
+		(title "LM25145_test")
+		(rev "00")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names

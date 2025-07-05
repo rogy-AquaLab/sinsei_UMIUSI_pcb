@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "pcb_connector_lan")(type "KiCad")(uri "C:/Users/yoshiki/OneDrive/デスクトップ/UMIUSI/新生UMIUSI_基板/pcb_connector_lan.pretty")(options "")(descr ""))
-  (lib (name "pcb_connector_lan_footprint")(type "KiCad")(uri "${KIPRJMOD}/pcb_connector_lan_footprint.pretty")(options "")(descr ""))
-)

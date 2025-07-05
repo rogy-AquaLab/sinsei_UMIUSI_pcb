@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "high-power-led")(type "KiCad")(uri "${KIPRJMOD}/high-power-led.pretty")(options "")(descr ""))
+  (lib (name "specific_library")(type "KiCad")(uri "${KIPRJMOD}/specific_library.pretty")(options "")(descr ""))
 )
