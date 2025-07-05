@@ -5,8 +5,8 @@
 	(uuid "53c704c2-cb76-4d98-9af6-5ff5fa53966b")
 	(paper "A5")
 	(title_block
-		(date "2025-05-23")
-		(rev "00")
+		(date "2025-07-05")
+		(rev "01")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
