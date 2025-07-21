@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ecd57c03-664a-4638-ada2-9ba1c126edba")
+	(paper "A5")
+	(title_block
+		(title "AQUA_VESC")
+		(rev "00")
+	)
+	(lib_symbols)
+)
