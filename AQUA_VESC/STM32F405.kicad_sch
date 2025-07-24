@@ -3619,7 +3619,7 @@
 		)
 		(uuid "ab24982f-be07-43ea-9fe5-79d5fd7996eb")
 	)
-	(hierarchical_label "ADC_EXT2"
+	(hierarchical_label "MISO_ADC_EXT2"
 		(shape output)
 		(at 80.01 53.34 0)
 		(effects
@@ -3783,7 +3783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002ee7aa-8239-453c-8daa-c4827cec5541")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 22.86 39.37 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd58212-377a-433b-af33-871db46b02ff")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 26.67 125.73 0)
 			(effects
 				(font
@@ -4186,7 +4186,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4202,7 +4202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3382711e-e409-4dcf-bbd0-a228179ea617")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 82.55 36.83 0)
 			(effects
 				(font
@@ -4252,7 +4252,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4382,7 +4382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46771b27-af7f-4add-8f34-9457deee91ee")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 22.86 45.72 0)
 			(effects
 				(font
@@ -4432,7 +4432,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c7d7e8-2bf9-4f21-88a7-1ac62d20a18c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 118.11 38.1 0)
 			(effects
 				(font
@@ -4499,7 +4499,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ac2759f-c22f-45fd-b095-9f5d379841ab")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 64.3733 127 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 		(instances
 			(project ""
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4841,7 +4841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f602ff8-ce0a-4067-9d7e-4e6266e9d571")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 		(instances
 			(project ""
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4976,7 +4976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e0bca9-37ff-46c4-a9fb-fb2753ea9a51")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 120.65 33.02 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5042,7 +5042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "926ca634-27b8-4908-9fd3-072e8d8acfbb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 27.94 67.31 0)
 			(effects
 				(font
@@ -5092,7 +5092,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5108,7 +5108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc5c412-5eff-4168-a50c-34ec75e24689")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 17.78 67.31 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR027")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5313,7 +5313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad36e147-e04d-4fea-8f92-4207a0e38fe7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -5363,7 +5363,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49c6716-6425-4828-a897-5bf325890cb4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 59.69 135.89 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 		(instances
 			(project ""
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5514,7 +5514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1eb24bf-2baf-4794-b714-c7306c8ceaee")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -5564,7 +5564,7 @@
 		(instances
 			(project "AQUA_VESC"
 				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/d65f5897-766b-4e01-8d8f-d620c6f94f16"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
