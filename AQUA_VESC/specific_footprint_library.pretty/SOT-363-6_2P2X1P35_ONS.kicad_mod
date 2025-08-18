@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(tags "SMF05CT1G ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 0.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8f2e5cf7-1782-4821-b108-99ec57c49160")
+		(uuid "a348ef64-ff2f-47f6-8d8d-9f57033e4906")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "edfac3c8-d8ce-4ed7-b748-1990d7e4a9f6")
+		(uuid "2c59550a-650b-4a4e-b469-e41a4b79e35c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a37790de-b039-4d95-8ebe-0cb535d1ab02")
+		(uuid "c6d88e5b-3b98-478f-a18d-adb2d9fa0762")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dd262c1b-20cc-4a88-82f6-b4786f59fef2")
+		(uuid "d4889937-b56d-4b8c-ba2a-27d78b19a2f2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -72,6 +72,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3f1e7306-7cd2-42d7-8dc0-782dc5012569")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1 -0.8) (xy -1.8 -0.7) (xy -2.1 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3b0d4882-c8f5-4bc8-9383-72a899769e01")
 	)
 	(fp_line
 		(start -1.7145 -1.0818)

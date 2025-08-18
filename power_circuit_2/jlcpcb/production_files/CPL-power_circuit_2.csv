@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x02_Socket,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,103.0,-123.175,0.0,bottom
+J2,Conn_01x02_Socket,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,121.0,-123.175,0.0,bottom
+J3,Conn_01x02_Socket,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,139.0,-123.175,0.0,bottom
+J4,Conn_01x02_Socket,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,157.0,-123.175,0.0,bottom
+J5,Conn_01x02_Pin,JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal,123.0,-138.475,0.0,top

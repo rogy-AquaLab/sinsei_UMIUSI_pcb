@@ -148,6 +148,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -1618,7 +1779,7 @@
 	)
 	(text "Vgx = 10V\nQg = 71nC\nfreq = 30000\nPgate = 71nC * (30000/60) \n= 35500nW = 35.5uW = 0.035mW "
 		(exclude_from_sim no)
-		(at 33.782 94.742 0)
+		(at 26.67 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,6 +1870,12 @@
 		(uuid "34428c9a-0a33-4369-9849-20ba8fcffa11")
 	)
 	(junction
+		(at 57.15 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37e0a6a4-1e7b-441a-9977-edf54895eff1")
+	)
+	(junction
 		(at 255.27 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1797,6 +1964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ff76595-10b3-4f90-b262-80124c5d41d9")
+	)
+	(junction
+		(at 194.31 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd2fdf0-9cb7-4918-82f5-4f5a8e2931f5")
 	)
 	(junction
 		(at 214.63 81.28)
@@ -1893,12 +2066,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c021cbbb-dc34-458b-855b-4ef58db820ac")
-	)
-	(junction
-		(at 58.42 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f1c1fc-074b-449b-aa8d-bfb2ff1d5073")
 	)
 	(junction
 		(at 140.97 80.01)
@@ -2154,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 137.16) (xy 58.42 137.16)
+			(xy 54.61 137.16) (xy 57.15 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2341,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "29c39e76-7b8a-4560-904d-6ba3f332af2d")
+	)
+	(wire
+		(pts
+			(xy 177.8 27.94) (xy 177.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5b7dd5-1867-4881-9e2f-a837c383eefc")
 	)
 	(wire
 		(pts
@@ -2661,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "5124ae0d-464d-4866-b8c2-378f973d7212")
+	)
+	(wire
+		(pts
+			(xy 194.31 27.94) (xy 194.31 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522858e7-dd30-4295-89a9-9541a7fc9f27")
 	)
 	(wire
 		(pts
@@ -3334,7 +3521,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 134.62) (xy 58.42 137.16)
+			(xy 177.8 27.94) (xy 194.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a9c457-cdf0-40a5-9591-ab7fe1eb7ff9")
+	)
+	(wire
+		(pts
+			(xy 57.15 134.62) (xy 57.15 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3584,6 +3781,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 38.1) (xy 194.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2816c4-6912-46c5-b6ca-abbc124d898d")
+	)
+	(wire
+		(pts
 			(xy 39.37 80.01) (xy 41.91 80.01)
 		)
 		(stroke
@@ -3724,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 134.62) (xy 58.42 134.62)
+			(xy 54.61 134.62) (xy 57.15 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3814,6 +4021,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 36.83) (xy 194.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d6bf2b-3017-4316-bcdd-ecc357913aaf")
+	)
+	(wire
+		(pts
 			(xy 93.98 119.38) (xy 93.98 120.65)
 		)
 		(stroke
@@ -3871,6 +4088,16 @@
 			(type default)
 		)
 		(uuid "eff50627-1338-4b43-932c-9d0fd23d279e")
+	)
+	(wire
+		(pts
+			(xy 57.15 137.16) (xy 58.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f57111-daeb-4594-b3e5-34285c74e448")
 	)
 	(wire
 		(pts
@@ -3995,6 +4222,28 @@
 		(uuid "c1ebf8e7-9fff-44dc-a8b1-a3e04673ffd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.0619 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_SUPPLY"
+		(shape input)
+		(at 177.8 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d223dc82-4add-49e1-86ab-a1b34da16037")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.5619 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 62.23 122.936 0)
 			(effects
 				(font
@@ -4721,6 +4970,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 177.8 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11d157aa-2ff1-4687-905d-cd8af3e3b9cf")
+		(property "Reference" "C68"
+			(at 181.61 30.8609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 181.61 33.4009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 178.7652 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "572c081c-355f-4a25-8195-7e951439b575")
+		)
+		(pin "1"
+			(uuid "3b04492c-6190-4409-890a-1a7ff7ac16e0")
+		)
+		(instances
+			(project ""
+				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/0c0a0536-9bff-4fdb-9cd6-9cc70ae75f50"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 224.79 121.92 0)
 		(unit 1)
@@ -4738,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 227.33 124.206 0)
 			(effects
 				(font
@@ -5890,6 +6209,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 194.31 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58d7b1a8-c1fc-4979-8842-0f9dcc540b7a")
+		(property "Reference" "#PWR0115"
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 194.183 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a601b10c-2732-4c73-81e2-417a1b3fee23")
+		)
+		(instances
+			(project "AQUA_VESC"
+				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/0c0a0536-9bff-4fdb-9cd6-9cc70ae75f50"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "specific_library:HOJLR2512-3W-1MR-1%")
 		(at 157.48 142.24 90)
 		(unit 1)
@@ -6778,6 +7163,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 194.31 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8614367f-8367-416d-9058-ee36d7a53784")
+		(property "Reference" "C69"
+			(at 198.12 30.8609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 198.12 33.4009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 195.2752 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41ed0d92-a04b-4412-835f-144c0d6e3069")
+		)
+		(pin "1"
+			(uuid "8a8cded0-9158-4839-91a1-dbd5bf1158c7")
+		)
+		(instances
+			(project "AQUA_VESC"
+				(path "/8ee9fd02-9bd5-4905-927f-d8ca1179f479/0c0a0536-9bff-4fdb-9cd6-9cc70ae75f50"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 233.68 151.13 0)
 		(unit 1)
@@ -6928,7 +7383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 143.51 122.936 0)
 			(effects
 				(font
@@ -7432,7 +7887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 144.78 87.6299 0)
 			(effects
 				(font
@@ -7644,7 +8099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 63.5 87.6299 0)
 			(effects
 				(font
@@ -8116,7 +8571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 228.6 88.8999 0)
 			(effects
 				(font

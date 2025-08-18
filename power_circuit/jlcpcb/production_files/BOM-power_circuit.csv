@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC,Quantity
+Conn_01x02_Pin,J7,JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal,,1
+-,J2,MountingHole_4.5mm_Pad_Via,,1
+Conn_01x01_Pin,J1,MountingHole_4.5mm_Pad_Via,,1
+~,J5,TH_XT90PB-F,,1
+~,J3,TH_XT90PB-F,,1
+~,J4,TH_XT90PB-F,,1
+~,J6,TH_XT90PB-F,,1
