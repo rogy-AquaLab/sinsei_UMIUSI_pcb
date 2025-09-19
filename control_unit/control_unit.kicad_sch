@@ -8855,7 +8855,7 @@
 	)
 	(text "HighBeam GPIO5\nLowBeam GPIO6\nIR GPIO25"
 		(exclude_from_sim no)
-		(at 129.54 158.496 0)
+		(at 128.778 154.94 0)
 		(effects
 			(font
 				(size 2.032 2.032)
