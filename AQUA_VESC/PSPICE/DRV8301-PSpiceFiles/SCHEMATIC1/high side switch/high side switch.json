@@ -1,0 +1,1 @@
+{"TimeStamp":"Thu Oct  2 14:08:11 2025\n","Circuits":{"ExitCode":"0","TraceCount":"28","Mode":"SPICE","Type":"TIFullMode","Models":[{"ModelName":"IRFH150","FileName":"c:\\cadence\\pspiceti\\tools\\pspice\\library\\cdn_psp_tipspice.lib","ModelType":".model","DeviceType":"m","Source":"FROM_INC","isLibSigned":"true","isAllowed":"true"}]}}

@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "text_height|42750000|52250000|63323526-4b57-45db-8777-60da465d52f0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|42750000|54500000|69a322ed-7b51-45e2-9d3d-f26de5f790cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -509,7 +518,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "can_connector.step",
       "svg": "",
       "vrml": ""
     },

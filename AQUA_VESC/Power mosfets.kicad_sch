@@ -4997,7 +4997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "specific_footprint_library:CP_Radial_D10.0mm_P5.00mm_nofill"
 			(at 178.7652 36.83 0)
 			(effects
 				(font
@@ -7190,7 +7190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "specific_footprint_library:CP_Radial_D10.0mm_P5.00mm_nofill"
 			(at 195.2752 36.83 0)
 			(effects
 				(font

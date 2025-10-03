@@ -1,0 +1,96 @@
+
+**** 10/02/25 14:08:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "high side switch.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DRV8301
+R_R1         N00404 N00390  10 TC=0,0 
+R_R2         N00404 N00390  10 TC=0,0 
+R_R4         0 N00366  10 TC=0,0 
+R_R3         0 N00366  10 TC=0,0 
+V_V1         N00404 N00358 DC 0 AC 0
++PULSE 0 10 0 10n 10n 1.0000e+9 1.0000e+9
+V_V2         N00456 0 24
+M_M1         N00456 N00390 N00358 N00358 IRFH150
+M_M2         N00358 N00366 0 0 IRFH150
+
+**** RESUMING "high side switch.cir" ****
+.END
+
+**** 10/02/25 14:08:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00358)   12.0000 (N00366)    0.0000 (N00390)   12.0000 (N00404)   12.0000     
+
+(N00456)   24.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         1.652E-16
+    V_V2        -2.700E-05
+
+    TOTAL POWER DISSIPATION   6.48E-04  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/02/25 14:08:10 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .78
+

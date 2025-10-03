@@ -1,0 +1,7 @@
+STATUS: PSpice Model Import Wizard for "Capture" (23.1.0.d001)
+STATUS:  
+   INFO: OLB driven flow
+   INFO: Input File: C:\USERS\YOSHI\ONEDRIVE\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\DRV830100.olb
+   INFO: Symbol Name: POWER_NMOS_P_0
+  ERROR: Symbol "POWER_NMOS_P_0" not found in symbol library "C:\USERS\YOSHI\ONEDRIVE\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\DRV830100.olb".
+STATUS: 1 Error messages, 0 Warning messages

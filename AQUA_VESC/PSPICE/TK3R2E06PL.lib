@@ -1,0 +1,168 @@
+**********************************************************************
+*  (C) Copyright 2017 Toshiba Electronic Devices & Storage Corporation
+*  Date:             20/07/2017
+*  File Name:        TK3R2E06PL.lib
+*  Part Number:      TK3R2E06PL
+*  Parameter Ver.:   Ver.1
+*  Simulator:        PSpice
+*  Model Call Name:  NMOS_TK3R2E06PL
+*  TNOM:             25 degree
+*  Pin Assign:       1=Drain 2=Gate 3=Source
+*
+* Operation of this model has been verified only on the OrCAD.
+**********************************************************************
+.SUBCKT NMOS_TK3R2E06PL 1 2 3
+M0 1 22 3 3 smsmosfet
++ L = 5e-06
++ W = 3
++ AD = 3e-06
++ AS = 3e-06
++ PD = 6
++ PS = 6
+D0 3 1 DDS1
+D1 3 1 DDS2
+D2 2 10 DGS1
+D3 3 10 DGS2
+R2 10 2 1E+009
+R3 10 3 1E+009
+RG 2 22 1.5
+.MODEL smsmosfet NMOS
++ LEVEL = 7
++ MOBMOD = 1
++ CAPMOD = 3
++ NOIMOD = 1
++ TOX = 1.5e-08
++ XJ = 1.5E-007
++ NCH = 1.7E+017
++ NGATE = 0
++ RSH = 0
++ TNOM = 25
++ VTH0 = 2.76
++ VOFF = -0.08
++ NFACTOR = 5
++ U0 = 3876
++ K1 = 0.5
++ K2 = 0
++ K3 = 80
++ K3B = 0
++ W0 = 2.5E-006
++ NLX = 1.74E-007
++ DVT0 = 2.2
++ DVT1 = 0.53
++ DVT2 = -0.032
++ DVT0W = 0
++ DVT1W = 5.3E+006
++ DVT2W = -0.032
++ DWG = 0
++ DWB = 0
++ UA = 1.1289e-12
++ UB = 5.87E-019
++ UC = -4.65E-011
++ VSAT = 125560
++ A0 = 11.9785
++ AGS = 0.62658
++ B0 = 0
++ B1 = 0
++ KETA = -0.047
++ A1 = 0
++ A2 = 1
++ DELTA = 0.015333
++ RDSW = 6000
++ PRWG = 0
++ PRWB = 0
++ WR = 1
++ CDSC = 2.4E-004
++ CDSCD = 0
++ CDSCB = 0
++ CIT = 0
++ ETA0 = 0.08
++ ETAB = -0.07
++ DSUB = 0.56
++ PCLM = 10
++ PDIBLC1 = 0.39
++ PDIBLC2 = 0.3153
++ PDIBLCB = 0
++ DROUT = 0.56
++ PSCBE1 = 4.24E+008
++ PSCBE2 = 1E-009
++ PVAG = 0
++ ALPHA0 = 0
++ ALPHA1 = 0
++ BETA0 = 30
++ NJ = 1
++ JS = 0
++ XPART = 0
++ CGSO = 1e-09
++ CGDO = 1e-11
++ CGBO = 0
++ CGDL = 6.5e-09
++ CGSL = 2e-11
++ CKAPPA = 0.95
++ CF = 0
++ CLC = 1E-007
++ CLE = 0.6
++ VOFFCV = 0
++ NOFF = 1
++ DLC = 0
++ ACDE = 1
++ MOIN = 15
++ CJ = 0
++ CJSW = 1E-012
++ CJSWG = 1E-012
++ PB = 1
++ PBSW = 1
++ PBSWG = 1
++ MJ = 0.5
++ MJSW = 0.33
++ MJSWG = 0.33
++ AF = 1
++ EF = 1
++ KF = 0
++ UTE = -0.9
++ KT1 = -1.12
++ KT1L = 0
++ KT2 = 0.022
++ UA1 = 4.31E-009
++ UB1 = -7.61E-018
++ UC1 = -5.6E-011
++ AT = 33000
++ PRT = 11500
++ XTI = 3
++ TCJ = 0
++ TPB = 0
++ TCJSW = 0
++ TPBSW = 0
++ TCJSWG = 0
++ TPBSWG = 0
++ DWC = 1.33
+.MODEL DDS1 D
++ TNOM = 25
++ IS = 8.4995e-14
++ RS = 0.0032563
++ N = 0.9022
++ CJO = 3.2e-09
++ VJ = 0.9
++ M = 0.43
++ XTI = 3
++ TT = 3.3e-08
++ BV = 60
++ IBV = 0.01
+.MODEL DDS2 D
++ TNOM = 25
++ IS = 8.4995e-14
++ RS = 0.0032563
++ N = 0.9022
++ CJO = 1E-15
++ VJ = 0.7
++ M = 0.3
++ XTI = 3
++ TT = 3.3e-08
+.MODEL DGS1 D
++ TNOM = 25
++ IS = 1E-015
+.MODEL DGS2 D
++ TNOM = 25
++ IS = 1E-015
+.ENDS
+
+

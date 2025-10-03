@@ -60,19 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|64500000|128010000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|b182d63f-afea-45d9-9991-ef2703fc917d",
+          "silk_overlap|64500000|127960000|0e674782-feb9-445e-9311-393508d2b7c1|196bb7f4-f1f2-4460-9eed-416cbb3f8e22",
           ""
         ],
         [
-          "silk_overlap|64500000|51700000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|5eb734e3-5001-40e8-a7a4-c2e1c9c4fc3d",
+          "silk_overlap|64500000|49100000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|c0449a0a-bab3-4a29-8e2b-329f0fe9165f",
           ""
         ],
         [
-          "silk_overlap|64500000|79750000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|e68c83d1-4657-4127-8339-58dd8485efdf",
+          "silk_overlap|64500000|51700000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|91842b6f-7e05-4fee-87ce-dcf753a3e14a",
           ""
         ],
         [
-          "silk_overlap|64500000|89800000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|d520a361-1132-4e56-9658-cba27378b1ec",
+          "silk_overlap|64500000|79700000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|a466c8b2-589d-4386-b84f-8b0971febe63",
+          ""
+        ],
+        [
+          "silk_overlap|64500000|87200000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|c92ddbb5-0a5c-45de-8430-35ded21d522d",
+          ""
+        ],
+        [
+          "silk_overlap|64500000|89800000|196bb7f4-f1f2-4460-9eed-416cbb3f8e22|745300dd-65ee-4520-973b-8290f09fc34d",
           ""
         ]
       ],
@@ -533,7 +541,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "AQUA_VESC-to-relay-pcb.step",
       "svg": "",
       "vrml": ""
     },

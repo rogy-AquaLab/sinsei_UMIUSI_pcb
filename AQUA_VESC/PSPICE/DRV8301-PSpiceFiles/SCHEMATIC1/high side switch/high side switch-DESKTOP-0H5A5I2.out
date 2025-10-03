@@ -1,0 +1,109 @@
+
+**** 10/02/25 13:57:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "high side switch.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DRV8301
+R_R1         N00404 N00390  10 TC=0,0 
+R_R2         N00404 N00390  10 TC=0,0 
+R_R4         0 N00366  10 TC=0,0 
+R_R3         0 N00366  10 TC=0,0 
+V_V1         N00404 0 DC 0 AC 0
++PULSE 0 10 0 10n 10n 1.0000e+9 1.0000e+9
+V_V2         N00456 0 24
+X_M2         N00456 N00390 N00358 SI7868DP
+X_M3         N00358 N00366 0 SI7868DP
+
+**** RESUMING "high side switch.cir" ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file nom_pspti.ind for library file nom_pspti.lib.
+
+INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
+
+Index has 114938 entries from 5258 file(s).
+
+INFO(ORPSIM-15423): Unable to find index file nom.ind for library file nom.lib.
+
+INFO(ORPSIM-15422): Making new index file nom.ind for library file nom.lib.
+
+Index has 1955 entries from 6 file(s).
+
+**** 10/02/25 13:57:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00358)    3.7805 (N00366)    0.0000 (N00390)    0.0000 (N00404)    0.0000     
+
+(N00456)   24.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2        -1.024E-08
+
+    TOTAL POWER DISSIPATION   2.46E-07  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/02/25 13:57:59 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301-
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        1.88
+  Total job time (using Solver 1)   =       41.02
+

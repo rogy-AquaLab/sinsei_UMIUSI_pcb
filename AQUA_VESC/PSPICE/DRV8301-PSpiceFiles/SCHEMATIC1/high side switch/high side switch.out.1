@@ -1,0 +1,56 @@
+
+**** 09/30/25 19:21:28 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-high side switch"  [ C:\Users\yoshi\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\DRV8301-PS
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "high side switch.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DRV8301
+R_R1         N00404 N00390  10 TC=0,0 
+R_R2         N00404 N00390  10 TC=0,0 
+R_R4         0 N00366  10 TC=0,0 
+R_R3         0 N00366  10 TC=0,0 
+V_V1         N00404 0 DC 0 AC 0
++PULSE 0 10 0 10n 10n 1.0000e+9 1.0000e+9
+X_M3         N00456 N00390 N00358 TK3R2E06PL PARAMS: BVDSS=30.0 IDSS=0.1u
++  VGS_TH=2.0 RDSON=0.0032 GFS=44 CISS=5000p COSS=950p CRSS=55p RG=1.5 VSD=0.8
++  QG=71n V_QG=10 TRR=55n
+X_M4         N00358 N00366 0 TK3R2E06PL PARAMS: BVDSS=30.0 IDSS=0.1u VGS_TH=2.0
++  RDSON=0.0032 GFS=44 CISS=5000p COSS=950p CRSS=55p RG=1.5 VSD=0.8 QG=71n
++  V_QG=10 TRR=55n
+V_V2         N00456 0 24
+
+**** RESUMING "high side switch.cir" ****
+.END
+
+ERROR(ORPSIM-15108): Subcircuit TK3R2E06PL used by X_M3 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit TK3R2E06PL used by X_M4 is undefined
+

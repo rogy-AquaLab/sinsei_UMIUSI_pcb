@@ -6894,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "basic_parts:wetness sensor"
+		(property "Footprint" "specific_footprint_library:wetness sensor"
 			(at 123.19 199.39 0)
 			(effects
 				(font

@@ -1,0 +1,7 @@
+STATUS: PSpice Schematics to Capture translator (23.1.0.d001)
+STATUS:  
+STATUS: Translator started at Tuesday, September 30, 2025 19:30:33
+INFO(ORSCH-1029): Using existing library 'C:\Users\yoshi\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\yoshi\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\TK3R2E06PL.olb'.
+STATUS: Translator stopped at Tuesday, September 30, 2025 19:36:10
+STATUS: 0 Error messages, 0 Warning messages

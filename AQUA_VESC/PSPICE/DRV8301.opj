@@ -1,0 +1,109 @@
+(ExpressProject "DRV8301"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[10/02/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tk3r2e06pl.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\drv8301.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\drv8301-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\drv8301-pspicefiles\schematic1\high side switch.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\drv8301-pspicefiles\schematic1\high side switch.sim"
+        (DisplayName "SCHEMATIC1-high side switch")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (IRFH150
+      (FullPartName "IRFH150.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\CDN_PSP_TIPSPICE.OLB")
+      (DeviceIndex "0"))
+    (Si7868DP
+      (FullPartName "Si7868DP.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\CDN_PSP_TIPSPICE.OLB")
+      (DeviceIndex "0"))
+    (power_Mbreakn
+      (FullPartName "power_Mbreakn.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\USERS\YOSHI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (POWER_NMOS_P
+      (FullPartName "POWER_NMOS_P.Normal")
+      (LibraryName
+         "C:\USERS\YOSHI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\POWERMOSFET\HYBRID\SUPPORTFILES\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\USERS\YOSHI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\USERS\YOSHI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName "C:\USERS\YOSHI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\USERS\YOSHI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "yoshiki")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301.dsn")
+      (Path "Design Resources"
+         "C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Select "Design Resources"
+         "C:\Users\yoshiki\OneDrive\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\drv8301.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 691"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 603 24 709")
+        (Scroll "0 -6")
+        (Zoom "89")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\YOSHIKI\ONEDRIVE\デスクトップ\UMIUSI\新生UMIUSI_基板\AQUA_VESC\PSPICE\DRV8301.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
